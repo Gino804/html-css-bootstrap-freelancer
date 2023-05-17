@@ -4,3 +4,13 @@ header
     color:white;
     height:80px;
 }
+
+section 
+{
+    height:500px;
+}
+
+section:nth-child(odd)
+{
+    background-color:#1ABC9C;
+}
