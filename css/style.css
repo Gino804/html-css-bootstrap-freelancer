@@ -13,6 +13,7 @@ section
 section:nth-child(odd)
 {
     background-color:#1ABC9C;
+    color:white;
 }
 
 .col-12
