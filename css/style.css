@@ -14,3 +14,10 @@ section:nth-child(odd)
 {
     background-color:#1ABC9C;
 }
+
+.col-12
+{
+    background-color:lightblue;
+    border:2px solid red;
+    height:50px;
+}
