@@ -42,6 +42,16 @@ section:nth-child(even)
     color:#2C3E50;
 }
 
+.text-green
+{
+    color:#1ABC9C;
+}
+
+.bg-green
+{
+    background-color:#1ABC9C;
+}
+
 /* Header */
 
 header
@@ -84,6 +94,8 @@ header .navbar-toggler-icon
     height:200px;
 }
 
+/* Footer */
+
 footer
 {
     color:white;
@@ -92,6 +104,20 @@ footer
 .footer-top
 {
     background-color:#3A546D;
+}
+
+.footer-top>.container>div
+{
+    flex-basis:calc(100% / 3)
+}
+
+.footer-icon
+{
+    width:50px;
+    height:50px;
+    border:1px solid white;
+    border-radius:50%;
+    line-height:47px;
 }
 
 .footer-bottom
