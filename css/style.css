@@ -1,8 +1,18 @@
 header
 {
     background-color:#2C3E50;
+    padding:20px 0;
+}
+
+header .nav-link, header .navbar-brand
+{
     color:white;
-    height:80px;
+    font-weight:bold;
+}
+
+header .navbar-toggler-icon
+{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(97deg) brightness(110%) contrast(101%);
 }
 
 section 
@@ -16,7 +26,7 @@ section:nth-child(odd)
     color:white;
 }
 
-.col-12
+.col
 {
     background-color:lightblue;
     border:2px solid red;
