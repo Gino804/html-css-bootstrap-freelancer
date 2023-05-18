@@ -1,3 +1,43 @@
+section:nth-child(odd)
+{
+    background-color:#1ABC9C;
+    color:white;
+}
+
+section:nth-child(even)
+{
+    color:#2C3E50;
+}
+
+/* Utils */
+
+.icon 
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.line
+{
+    width:10%;
+    height:5px;
+    border-radius:3px;
+    margin:0 5px;
+}
+
+.line-white
+{
+    background-color:white;
+}
+
+.line-gray
+{
+    background-color:#2C3E50;
+}
+
+/* Header */
+
 header
 {
     background-color:#2C3E50;
@@ -15,15 +55,12 @@ header .navbar-toggler-icon
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(97deg) brightness(110%) contrast(101%);
 }
 
-section 
-{
-    height:500px;
-}
+/* Jumbotron */
 
-section:nth-child(odd)
+#jumbotron figure 
 {
-    background-color:#1ABC9C;
-    color:white;
+    width:250px;
+    margin:auto;
 }
 
 .col
