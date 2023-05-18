@@ -36,6 +36,12 @@ section:nth-child(even)
     background-color:#2C3E50;
 }
 
+::placeholder 
+{
+    font-size:20px;
+    color:#2C3E50;
+}
+
 /* Header */
 
 header
@@ -61,6 +67,21 @@ header .navbar-toggler-icon
 {
     width:250px;
     margin:auto;
+}
+
+/* Contact */
+
+#contact input, #contact textarea
+{
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-radius:0;
+}
+
+#contact textarea 
+{
+    height:200px;
 }
 
 footer
